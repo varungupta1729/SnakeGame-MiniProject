@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 98vh;
+    width: 98vw;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/697/712/non_2x/tropical-rainforest-scene-with-various-wild-animals-free-vector.jpg");
+    background-size: cover;
+ 
+}
+canvas{
+    border-radius: 12px;
+}
+
+#gameBoard{
+    border: 3px solid black;
+}
+
+.gameContainer{
+    text-align: center;
+}
+
+#scoreText{
+    font-family: "Permanent Marker" , cursive;
+    font-size: 50px;
+}
+
+#resetBtn{
+    font-family: "Permanent Marker" , cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255, 95, 95);
+    
+}
+.name {
+    font-size: 2vw;
+    
+    
+}
+
+.myName {
+    font-size: 3vw;
+}
