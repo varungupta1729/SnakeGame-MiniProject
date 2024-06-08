@@ -1,1 +1,2 @@
-## This is my Learning project while i was learning Javascript
+## This is my Learning project while I was learning Javascript 🐍
+
